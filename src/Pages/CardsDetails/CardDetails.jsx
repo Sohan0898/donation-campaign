@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import Details from "../../components/Main/CardDetails/Details";
 
 const CardDetails = () => {
   const [details, setDetails] = useState({});
@@ -19,8 +20,8 @@ const CardDetails = () => {
   console.log(details);
 
   return (
-    <div>
-      <h1>phone</h1>
+    <div className="max-w-screen-2xl mx-auto px-4 md:px-8 lg:px-20 py-4 my-9 ">
+      <Details details={details}></Details>
     </div>
   );
 };
