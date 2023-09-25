@@ -1,0 +1,148 @@
+[
+    {
+        "id": 1,
+        "category": "Health",
+        "picture": "https://i.ibb.co/SwDXqcd/Health.png",
+        "title": "Clean water for children",
+        "category_text_color": "#0052FF",
+        "card_bg_color": "#0052FF26",
+        "button_bg_color": "#0052FF33",
+        "btn_text_color": "#0052FF",
+        "description": "Provide clean and safe drinking water for children in underserved communities.",
+        "price": "$12.99"
+    },
+    {
+        "id": 2,
+        "category": "Education",
+        "picture": "https://i.ibb.co/9ZffVgW/Education.png",
+        "title": "Good education",
+        "category_text_color": "#FF444A",
+        "card_bg_color": "#FF444A26",
+        "button_bg_color": "#FF444A33",
+        "btn_text_color": "#FF444A",
+        "description": "Support quality education initiatives for students in need.",
+        "price": "$9.99"
+    },
+    {
+        "id": 3,
+        "category": "Clothing",
+        "picture": "https://i.ibb.co/vLh01Hq/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category_text_color": "#79C23F",
+        "card_bg_color": "#79C23F26",
+        "button_bg_color": "#79C23F33",
+        "btn_text_color": "#79C23F",
+        "description": "Collect and distribute gently used clothing to those in need.",
+        "price": "$7.99"
+    },
+    {
+        "id": 4,
+        "category": "Food",
+        "picture": "https://i.ibb.co/Yd0s3kd/Food.png",
+        "title": "Better Food for Everyone",
+        "category_text_color": "#F87147",
+        "card_bg_color": "#F8714826",
+        "button_bg_color": "#F871482F",
+        "btn_text_color": "#F87147",
+        "description": "Support programs to provide nutritious food to disadvantaged communities.",
+        "price": "$14.99"
+    },
+    
+    {
+        "id": 5,
+        "category": "Food",
+        "picture": "https://i.ibb.co/Yd0s3kd/Food.png",
+        "title": "Food for All",
+        "category_text_color": "#F87147",
+        "card_bg_color": "#F8714826",
+        "button_bg_color": "#F871482F",
+        "btn_text_color": "#F87147",
+        "description": "Description for the second food initiative.",
+        "price": "$9.99"
+    },
+    {
+        "id": 6,
+        "category": "Clothing",
+        "picture": "https://i.ibb.co/vLh01Hq/Clothing.png",
+        "title": "Warm Clothing Drive",
+        "category_text_color": "#79C23F",
+        "card_bg_color": "#79C23F26",
+        "button_bg_color": "#79C23F33",
+        "btn_text_color": "#79C23F",
+        "description": "Description for the second clothing initiative.",
+        "price": "$8.99"
+    },
+    {
+        "id": 7,
+        "category": "Education",
+        "picture": "https://i.ibb.co/9ZffVgW/Education.png",
+        "title": "Supporting Schools",
+        "category_text_color": "#FF444A",
+        "card_bg_color": "#FF444A26",
+        "button_bg_color": "#FF444A33",
+        "btn_text_color": "#FF444A",
+        "description": "Description for the second education initiative.",
+        "price": "$11.99"
+    },
+    {
+        "id": 8,
+        "category": "Health",
+        "picture": "https://i.ibb.co/SwDXqcd/Health.png",
+        "title": "Another Health Initiative",
+        "category_text_color": "#0052FF",
+        "card_bg_color": "#0052FF26",
+        "button_bg_color": "#0052FF33",
+        "btn_text_color": "#0052FF",
+        "description": "Description for the second health initiative.",
+        "price": "$13.99"
+    },
+    
+    {
+        "id": 9,
+        "category": "Health",
+        "picture": "https://i.ibb.co/SwDXqcd/Health.png",
+        "title": "Healthcare Access",
+        "category_text_color": "#0052FF",
+        "card_bg_color": "#0052FF26",
+        "button_bg_color": "#0052FF33",
+        "btn_text_color": "#0052FF",
+        "description": "Description for the third health initiative.",
+        "price": "$17.99"
+    },
+    {
+        "id": 10,
+        "category": "Education",
+        "picture": "https://i.ibb.co/9ZffVgW/Education.png",
+        "title": "Quality Learning",
+        "category_text_color": "#FF444A",
+        "card_bg_color": "#FF444A26",
+        "button_bg_color": "#FF444A33",
+        "btn_text_color": "#FF444A",
+        "description": "Description for the third education initiative.",
+        "price": "$16.99"
+    },
+    {
+        "id": 11,
+        "category": "Clothing",
+        "picture": "https://i.ibb.co/vLh01Hq/Clothing.png",
+        "title": "Clothes for All Seasons",
+        "category_text_color": "#79C23F",
+        "card_bg_color": "#79C23F26",
+        "button_bg_color": "#79C23F33",
+        "btn_text_color": "#79C23F",
+        "description": "Description for the third clothing initiative.",
+        "price": "$12.99"
+    },
+    {
+        "id": 12,
+        "category": "Food",
+        "picture": "https://i.ibb.co/Yd0s3kd/Food.png",
+        "title": "Food Security Project",
+        "category_text_color": "#F87147",
+        "card_bg_color": "#F8714826",
+        "button_bg_color": "#F871482F",
+        "btn_text_color": "#F87147",
+        "description": "Description for the third food initiative.",
+        "price": "$14.99"
+    }
+]
