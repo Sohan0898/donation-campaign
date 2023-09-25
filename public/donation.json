@@ -8,8 +8,8 @@
         "card_bg_color": "#0052FF26",
         "button_bg_color": "#0052FF33",
         "btn_text_color": "#0052FF",
-        "description": "Provide clean and safe drinking water for children in underserved communities.",
-        "price": "$12.99"
+        "description": "This initiative aims to provide clean and safe drinking water to children in underserved communities. Access to clean water is essential for good health, and your support can make a significant difference in the lives of these children.",
+        "price": "$129"
     },
     {
         "id": 2,
@@ -20,8 +20,8 @@
         "card_bg_color": "#FF444A26",
         "button_bg_color": "#FF444A33",
         "btn_text_color": "#FF444A",
-        "description": "Support quality education initiatives for students in need.",
-        "price": "$9.99"
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": "$290"
     },
     {
         "id": 3,
@@ -32,8 +32,8 @@
         "card_bg_color": "#79C23F26",
         "button_bg_color": "#79C23F33",
         "btn_text_color": "#79C23F",
-        "description": "Collect and distribute gently used clothing to those in need.",
-        "price": "$7.99"
+        "description": "Join our used clothing drive to provide warm and gently-used clothing to those in need. Your donation can help keep people warm and comfortable during colder months.",
+        "price": "$99"
     },
     {
         "id": 4,
@@ -44,10 +44,9 @@
         "card_bg_color": "#F8714826",
         "button_bg_color": "#F871482F",
         "btn_text_color": "#F87147",
-        "description": "Support programs to provide nutritious food to disadvantaged communities.",
-        "price": "$14.99"
+        "description": "Our initiative is focused on improving food quality and access for everyone. Your contribution can help ensure that nutritious and affordable food reaches those who need it most.",
+        "price": "$199"
     },
-    
     {
         "id": 5,
         "category": "Food",
@@ -57,8 +56,8 @@
         "card_bg_color": "#F8714826",
         "button_bg_color": "#F871482F",
         "btn_text_color": "#F87147",
-        "description": "Description for the second food initiative.",
-        "price": "$9.99"
+        "description": "Our 'Food for All' program is dedicated to ending hunger by providing nutritious meals to individuals and families facing food insecurity. Your support can make a significant impact on their lives.",
+        "price": "$100"
     },
     {
         "id": 6,
@@ -69,8 +68,8 @@
         "card_bg_color": "#79C23F26",
         "button_bg_color": "#79C23F33",
         "btn_text_color": "#79C23F",
-        "description": "Description for the second clothing initiative.",
-        "price": "$8.99"
+        "description": "Help us collect warm clothing for those in need, especially during the cold seasons. Your generous donations will keep people warm and protected from the elements.",
+        "price": "$249"
     },
     {
         "id": 7,
@@ -81,8 +80,8 @@
         "card_bg_color": "#FF444A26",
         "button_bg_color": "#FF444A33",
         "btn_text_color": "#FF444A",
-        "description": "Description for the second education initiative.",
-        "price": "$11.99"
+        "description": "By supporting schools, you are investing in the future of our children. Your contribution can provide essential resources, improve educational infrastructure, and empower students to succeed.",
+        "price": "$119"
     },
     {
         "id": 8,
@@ -93,10 +92,9 @@
         "card_bg_color": "#0052FF26",
         "button_bg_color": "#0052FF33",
         "btn_text_color": "#0052FF",
-        "description": "Description for the second health initiative.",
-        "price": "$13.99"
+        "description": "Our health initiative focuses on various aspects of healthcare, from improving access to medical services to promoting healthy lifestyles. Your support can lead to healthier communities.",
+        "price": "$139"
     },
-    
     {
         "id": 9,
         "category": "Health",
@@ -106,8 +104,8 @@
         "card_bg_color": "#0052FF26",
         "button_bg_color": "#0052FF33",
         "btn_text_color": "#0052FF",
-        "description": "Description for the third health initiative.",
-        "price": "$17.99"
+        "description": "Access to quality healthcare is a fundamental right. Your contribution to our healthcare access initiative can help underserved populations receive the medical care they deserve.",
+        "price": "$179"
     },
     {
         "id": 10,
@@ -118,8 +116,8 @@
         "card_bg_color": "#FF444A26",
         "button_bg_color": "#FF444A33",
         "btn_text_color": "#FF444A",
-        "description": "Description for the third education initiative.",
-        "price": "$16.99"
+        "description": "Quality education is the key to personal and societal growth. Your support for quality learning initiatives can help equip students with the knowledge and skills they need for a bright future.",
+        "price": "$169"
     },
     {
         "id": 11,
@@ -130,8 +128,8 @@
         "card_bg_color": "#79C23F26",
         "button_bg_color": "#79C23F33",
         "btn_text_color": "#79C23F",
-        "description": "Description for the third clothing initiative.",
-        "price": "$12.99"
+        "description": "Our 'Clothes for All Seasons' initiative ensures that individuals have appropriate clothing year-round. Your donations can provide clothing that protects against the elements.",
+        "price": "$129"
     },
     {
         "id": 12,
@@ -142,7 +140,7 @@
         "card_bg_color": "#F8714826",
         "button_bg_color": "#F871482F",
         "btn_text_color": "#F87147",
-        "description": "Description for the third food initiative.",
-        "price": "$14.99"
+        "description": "Our 'Food Security Project' aims to ensure that no one goes hungry. Your support can help us create a safety net of food resources for those facing food insecurity.",
+        "price": "$149"
     }
 ]
