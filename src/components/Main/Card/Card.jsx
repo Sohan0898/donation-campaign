@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 /* eslint-disable react/prop-types */
 const Card = ({ card }) => {
   const {
@@ -16,8 +17,8 @@ const Card = ({ card }) => {
   return (
 
     <div>
-      <Link to={`/cardDetails/${id}`}>
-      <div
+      
+      <Link to={`/cardDetails/${id}`}><div
         className="card card-compact bg-base-100 shadow-xl"
         style={{ backgroundColor: card_bg_color }}
       >
@@ -42,9 +43,11 @@ const Card = ({ card }) => {
           >
             {title}
           </h2>
+          
         </div>
-      </div>
-      </Link>
+      </div></Link>
+      
+      
     </div>
   );
 };
