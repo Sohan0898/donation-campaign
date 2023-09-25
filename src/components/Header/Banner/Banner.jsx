@@ -4,7 +4,7 @@ const Banner = () => {
         <div>
              <div>
         <div
-          className="hero min-h-[60vh] bg-auto"
+          className="hero min-h-[50vh] bg-cover"
           style={{
             backgroundImage: "url(https://i.ibb.co/FzQq9MN/Rectangle-4281.png)"
           }}
