@@ -1,17 +1,17 @@
 /* eslint-disable react/prop-types */
-
-function Card({ data }) {
+const Card=({card}) => {
+    const{card_bg_color, picture, title,button_bg_color,btn_text_color,category,description,price}=card || {}
     return (
       <div>
         <div
           className="card card-compact bg-base-100 shadow-xl"
-          style={{ backgroundColor: data.card_bg_color }}
+          style={{ backgroundColor: card_bg_color }}
         >
           <figure>
             <img
               className=" w-full"
-              src={data.picture}
-              alt={data.title}
+              src={picture}
+              alt={title}
             />
           </figure>
           <div className="card-body">
@@ -19,23 +19,23 @@ function Card({ data }) {
               <button
                 className="py-1 px-3 font-medium text-sm rounded-lg"
                 style={{
-                  backgroundColor: data.button_bg_color,
-                  color: data.btn_text_color,
+                  backgroundColor: button_bg_color,
+                  color: btn_text_color,
                 }}
               >
-                {data.category}
+                {category}
               </button>
             </div>
             <h2
               className="card-title text-xl font-semibold"
-              style={{ color: data.btn_text_color }}
+              style={{ color: btn_text_color }}
             >
-              {data.title}
+              {title}
             </h2>
-            <p className=" h-11" style={{ color: data.btn_text_color }}>
-              {data.description}
+            <p className=" h-11" style={{ color: btn_text_color }}>
+              {description}
             </p>
-            <p className="font-semibold" style={{ color: data.btn_text_color }}>Price: {data.price}</p>
+            <p className="font-semibold" style={{ color: btn_text_color }}>Price: {price}</p>
           </div>
         </div>
       </div>
