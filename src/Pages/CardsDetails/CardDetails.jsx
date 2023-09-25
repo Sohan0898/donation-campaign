@@ -6,18 +6,13 @@ const CardDetails = () => {
   const [details, setDetails] = useState({});
   const { id } = useParams();
 
-
   const donation = useLoaderData();
-
 
   useEffect(() => {
     const findCardDetails = donation?.find((details) => details.id == id);
 
-
     setDetails(findCardDetails);
   }, [donation, id]);
-
-  console.log(details);
 
   return (
     <div className="max-w-screen-2xl mx-auto px-4 md:px-8 lg:px-20 py-4 my-9 ">
