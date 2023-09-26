@@ -27,26 +27,32 @@ const Donation = () => {
       ) : (
         <div className="max-w-screen-2xl mx-auto px-4 md:px-8 lg:px-20 py-4 my-9 ">
           <div className="grid grid-cols-2 gap-5 ">
-            {
-                isShow ? doantionCard.map((details) => (
-                    <DonationCard key={details.id} details={details}></DonationCard>
-                  ))
-
-                  : doantionCard.slice(0, 4).map((details) => (
-                    <DonationCard key={details.id} details={details}></DonationCard>
-                  ))
-
-            }
+            {isShow
+              ? doantionCard.map((details) => (
+                  <DonationCard
+                    key={details.id}
+                    details={details}
+                  ></DonationCard>
+                ))
+              : doantionCard
+                  .slice(0, 4)
+                  .map((details) => (
+                    <DonationCard
+                      key={details.id}
+                      details={details}
+                    ></DonationCard>
+                  ))}
           </div>
 
           <div className="mt-8 text-center">
-            
-            {
-                  doantionCard.length > 4 &&  <button onClick={()=>setIsShow(!isShow)} className="btn text-white normal-case font-semibold bg-[#009444]">
+            {doantionCard.length > 4 && (
+              <button
+                onClick={() => setIsShow(!isShow)}
+                className="btn text-white normal-case font-semibold bg-[#009444]"
+              >
                 {isShow ? "See Less" : "See All"}
               </button>
-            }
-
+            )}
           </div>
         </div>
       )}
@@ -55,4 +61,3 @@ const Donation = () => {
 };
 
 export default Donation;
-
