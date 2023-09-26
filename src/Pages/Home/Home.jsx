@@ -9,11 +9,10 @@ const Home = () => {
   const [filteredCards, setFilteredCards] = useState([]);
 
   const handleSearch = () => {
-    // Filter the cards based on the entered category
     const newFilteredCards = cards.filter((card) =>
       card.category.toLowerCase().includes(searchCategory.toLowerCase())
     );
-    // Update the filtered cards
+
     setFilteredCards(newFilteredCards);
   };
 

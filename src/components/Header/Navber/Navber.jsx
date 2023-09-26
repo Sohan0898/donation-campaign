@@ -4,14 +4,18 @@ import Logo from "../Logo/Logo";
 const Navber = () => {
   return (
     <div className="flex justify-between items-center max-w-screen-2xl mx-auto px-4 md:px-8 lg:px-20 py-4 my-9">
-        <Logo></Logo>
+      <Logo></Logo>
       <nav>
         <ul className="flex gap-12 text-lg font-bold  ">
           <li>
             <NavLink
               to="/"
               className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-[#FF444A]   underline" : ""
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "text-[#FF444A]   underline"
+                  : ""
               }
             >
               Home
@@ -21,7 +25,11 @@ const Navber = () => {
             <NavLink
               to="/Donation"
               className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-[#FF444A]  underline" : ""
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "text-[#FF444A]  underline"
+                  : ""
               }
             >
               Donation
@@ -31,7 +39,11 @@ const Navber = () => {
             <NavLink
               to="/Statistics"
               className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-[#FF444A]  underline" : ""
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "text-[#FF444A]  underline"
+                  : ""
               }
             >
               Statistics

@@ -19,7 +19,6 @@ const Donation = () => {
 
   return (
     <div>
-      |
       {noFound ? (
         <h1 className="h-[60vh] text-3xl font-semibold flex justify-center items-center">
           {noFound}

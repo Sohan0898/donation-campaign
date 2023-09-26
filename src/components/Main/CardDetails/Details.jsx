@@ -1,38 +1,28 @@
 /* eslint-disable react/prop-types */
 import swal from "sweetalert";
 
-
 const Details = ({ details }) => {
   const { id, picture, title, description, price } = details || {};
 
   const handleDonation = () => {
-    const addedDonationArray =[];
+    const addedDonationArray = [];
     const donationItems = JSON.parse(localStorage.getItem("donation"));
 
-    if (!donationItems){
-
-        addedDonationArray.push(details);
+    if (!donationItems) {
+      addedDonationArray.push(details);
+      localStorage.setItem("donation", JSON.stringify(addedDonationArray));
+      swal("Thank You", "Your Donation Added Successfully!", "success");
+    } else {
+      const isExits = donationItems.find((details) => details.id == id);
+      if (!isExits) {
+        addedDonationArray.push(...donationItems, details);
         localStorage.setItem("donation", JSON.stringify(addedDonationArray));
-        swal("Thank You", "Your Donation Added Successfully!", "success")
+        swal("Thank You", "Your Donation Added Successfully!", "success");
+      } else {
+        swal("Warning", "You Already Gave Donation!", "error");
+      }
     }
-
-    else{
-
-        const isExits = donationItems.find((details)=>details.id ==id);
-        if(!isExits){
-            addedDonationArray.push(...donationItems, details);
-            localStorage.setItem("donation", JSON.stringify(addedDonationArray));
-            swal("Thank You", "Your Donation Added Successfully!", "success")
-            
-        }
-        else{
-            swal("Warning", "You Already Gave Donation!", "error")
-        }
-    }
-
-    
   };
-
 
   return (
     <div>
