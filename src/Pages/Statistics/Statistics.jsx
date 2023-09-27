@@ -14,12 +14,11 @@ const Statistics = () => {
     return donationItems ? donationItems.length : 0;
   };
 
-  const yourDonation = (getYourDonation() / getTotalDonation()) * 100;
-  console.log(yourDonation);
+  console.log(getYourDonation);
 
   const data = [
-    { name: "Total Donation", value: getTotalDonation() },
-    { name: "Your Donation", value: yourDonation },
+    { name: "Your Donation", value: getYourDonation() },
+    { name: "Total Donation", value: getTotalDonation() - getYourDonation() },
   ];
 
   console.log(data);
@@ -54,7 +53,7 @@ const Statistics = () => {
 
   return (
     <div>
-      <div >
+      <div>
         {
           <ResponsiveContainer width="100%" height={500}>
             <PieChart>
@@ -78,12 +77,12 @@ const Statistics = () => {
       </div>
       <div className="flex justify-center gap-4 md:gap-12 items-center">
         <div className="flex gap-2 md:gap-4 items-center">
-          <p>Total Donation</p>
-          <div className=" w-14 md:w-20 h-3 rounded bg-[#FF444A]"></div>
+          <p>Your Donation</p>
+          <div className=" w-14 md:w-20 h-3 rounded bg-[#00C49F] "></div>
         </div>
         <div className="flex gap-2 md:gap-4 items-center">
-          <p>Your Donation</p>
-          <div className=" w-14 md:w-20 h-3 rounded  bg-[#00C49F]"></div>
+          <p>Total Donation</p>
+          <div className=" w-14 md:w-20 h-3 rounded bg-[#FF444A] "></div>
         </div>
       </div>
     </div>

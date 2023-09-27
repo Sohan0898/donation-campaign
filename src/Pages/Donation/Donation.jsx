@@ -17,6 +17,12 @@ const Donation = () => {
     }
   }, []);
 
+  const handleRemove = () => {
+    localStorage.clear();
+    setDonationCard([]);
+    setNoFound("No Donation Yet");
+  };
+
   return (
     <div>
       {noFound ? (
@@ -24,7 +30,16 @@ const Donation = () => {
           {noFound}
         </h1>
       ) : (
-        <div className="max-w-screen-2xl mx-auto px-4 md:px-8 lg:px-20 py-4 my-9 ">
+        <div className="max-w-screen-2xl mx-auto px-6 md:px-8 lg:px-20 py-4 my-9 ">
+          {DonationCard.length > 0 && (
+            <button
+              onClick={handleRemove}
+              className="btn text-white  normal-case font-semibold bg-[#009444] block mt-2 mb-10 mx-auto"
+            >
+              Remove Donation
+            </button>
+          )}
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
             {isShow
               ? doantionCard.map((details) => (

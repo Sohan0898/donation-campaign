@@ -52,7 +52,6 @@ const DonationCard = ({ details }) => {
           </div>
           <div>
             <Link to={`/cardDetails/${id}`}>
-            
               <button
                 className="btn text-white normal-case text-sm md:text-lg font-semibold"
                 style={{

@@ -28,7 +28,7 @@ const Details = ({ details }) => {
     <div>
       <div>
         <div>
-          <img className="w-full h-[650px] rounded-3xl " src={picture} />
+          <img className="w-full lg:h-[650px] rounded-3xl " src={picture} />
           <div className="bg-black  bg-opacity-50 rounded-b-3xl  relative py-7  bottom-[115px]">
             <button
               onClick={handleDonation}
