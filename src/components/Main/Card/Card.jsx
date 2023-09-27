@@ -20,7 +20,7 @@ const Card = ({ card }) => {
           style={{ backgroundColor: card_bg_color }}
         >
           <figure>
-            <img className=" w-full" src={picture} alt={title} />
+            <img className=" w-full h-[215px]" src={picture} alt={title} />
           </figure>
           <div className="card-body">
             <div className="card-actions justify-start">

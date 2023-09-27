@@ -20,7 +20,7 @@ const DonationCard = ({ details }) => {
         style={{ backgroundColor: card_bg_color }}
       >
         <figure>
-          <img className="w-[240px] h-full" src={picture} />
+          <img className="w-[240px] h-full md:h-[230px]" src={picture} />
         </figure>
         <div className="card-body">
           <div className="card-actions justify-start">
@@ -52,15 +52,15 @@ const DonationCard = ({ details }) => {
           </div>
           <div>
             <Link to={`/cardDetails/${id}`}>
-              {" "}
+            
               <button
-                className="btn text-white normal-case text-lg font-semibold"
+                className="btn text-white normal-case text-sm md:text-lg font-semibold"
                 style={{
                   backgroundColor: btn_text_color,
                 }}
               >
                 View Details
-              </button>{" "}
+              </button>
             </Link>
           </div>
         </div>

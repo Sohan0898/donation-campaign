@@ -25,7 +25,7 @@ const Donation = () => {
         </h1>
       ) : (
         <div className="max-w-screen-2xl mx-auto px-4 md:px-8 lg:px-20 py-4 my-9 ">
-          <div className="grid grid-cols-2 gap-5 ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
             {isShow
               ? doantionCard.map((details) => (
                   <DonationCard

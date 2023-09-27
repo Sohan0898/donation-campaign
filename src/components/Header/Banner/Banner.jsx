@@ -16,7 +16,7 @@ const Banner = ({ setSearchCategory, handleSearch }) => {
         >
           <div className="hero-overlay bg-white  bg-opacity-95"></div>
           <div className="form-control">
-            <h1 className="text-5xl font-bold text-center mb-10">
+            <h1 className="text-3xl md:text-5xl font-bold text-center mb-10">
               I Grow By Helping People In Need
             </h1>
             <div className="input-group justify-center ">
